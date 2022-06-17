@@ -1,0 +1,81 @@
+== Changelog ==
+
+= Theme Name: Cloriato Lite
+
+* Version 1.7.2
+***************************************
+1. Popular Social icons Added.
+
+* Version 1.7.1
+***************************************
+1. Theme thumbnail updated.
+
+* Version 1.7.0
+***************************************
+1. Theme URI and footer links updated.
+
+* Version 1.6.9
+***************************************
+1. Change Styling on post.
+2. Remove error on 404 page.
+
+
+* Version 1.6.8
+***************************************
+1. Support Link Button Added In WordPress Customize
+
+* Version: 1.6.7
+***************************************
+* Theme option to WordPress customizer API migration.
+
+* Version: 1.6.6
+***************************************
+* Changed language file name according to root directory name.
+
+* Version: 1.6.5
+***************************************
+* Theme check issue fixed.
+* All text domain matched with theme directory.
+* Language .pot file matched with text domain.
+* Use add_theme_support( 'title-tag' ) with after_theme_setup hook and removed title tag from header.php.
+
+* Version: 1.6.4
+***************************************
+1. Removed default favicon link.
+2. bloginfo( 'stylesheet_url' ); changed to echo get_stylesheet_uri();
+
+* Version: 1.6.3
+***************************************
+1. Theme url changed.
+2. Removed query_posts and used wp_query instead.
+3. Removed wp_enqueue_script('jquery').
+4. Escaped all urls.
+5. Option added for disable default front page.
+6. Site title and site description added in header, if site logo uploaded via theme option, site title and description will be disappeared.
+7. Removed analytic option.
+8. All supporting function hooked into after_setup_theme hook.
+9. Added plugins notification for recommends plugin.
+10.Replace preg_replace function with ereg_replace.
+11.Options made for values save in a single array.
+12.Large images overflow sidebar widget areas and select menus with long titles issue fixed.
+
+* Version: 1.6.2
+***************************************
+1. Footer information changed.
+2. Upload button style fixed.
+3. Code format optimized.
+
+* Version: 1.6.1
+***************************************
+1. Copyright License stated.
+
+* Version: 1.6
+***************************************
+1. Custom background option has to be use WordPress core function, fixed.
+2. Footer link (Cloriato Wordpress Theme by InkThemes?.com) needs to be changed. fixed.
+3. Debug notice : Use of undefine constant php - assumed 'php', fixed.
+
+* Version: 1.5
+***************************************
+1. Fixed get_theme_data is deprecated since version 3.4! error.
+2. Removed @package WordPress
